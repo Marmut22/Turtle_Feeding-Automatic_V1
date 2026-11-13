@@ -9,6 +9,7 @@ This project aims to automate scheduled pellet dispensing using an Arduino Uno, 
 The Automatic Turtle Feeder is a DIY embedded systems project that combines electronics, mechanical engineering, and 3D printing.
 
 The system is designed to:
+
 - Dispense turtle food automatically according to a scheduled time.
 - Use an RTC module for accurate timekeeping.
 - Control food dispensing through a servo motor.
@@ -17,14 +18,14 @@ The system is designed to:
 
 ## Hardware Components
 
-| Component | Purpose |
-|---|---|
-| Arduino Uno R3 | Main controller |
-| DS3231 RTC | Real-time clock |
-| MG90S Servo | Mechanical dispenser control |
-| 16x2 LCD I2C | Optional status display |
-| 5V External Power Supply | Servo power |
-| 3D-Printed Enclosure | Mechanical housing |
+| Component                | Purpose                      |
+| ------------------------ | ---------------------------- |
+| Arduino Uno R3           | Main controller              |
+| DS3231 RTC               | Real-time clock              |
+| MG90S Servo              | Mechanical dispenser control |
+| 16x2 LCD I2C             | Optional status display      |
+| 5V External Power Supply | Servo power                  |
+| 3D-Printed Enclosure     | Mechanical housing           |
 
 ## Mechanical Design
 
@@ -76,17 +77,18 @@ images/        Project images and diagrams
 - [x] Component selection
 - [x] Initial mechanical concept
 - [x] Initial Arduino firmware
-- [ ] Final rotary dispensing mechanism
-- [ ] Final 3D enclosure
-- [ ] Electronics assembly
-- [ ] Feeding quantity calibration
-- [ ] Reliability testing
+- [x] Final rotary dispensing mechanism
+- [x] Final 3D enclosure
+- [x] Electronics assembly
+- [x] Feeding quantity calibration
+- [x] Reliability testing
 
 ## Safety Considerations
 
 This project is intended for development and experimental use.
 
 Before actual deployment:
+
 - Verify dispensing quantity using a scale.
 - Test the mechanism for pellet jamming.
 - Protect electronics from rain and water splashes.
@@ -110,7 +112,7 @@ License information will be added when the project's distribution terms are fina
 
 ---
 
-**Project:** Automatic Turtle Feeder  
-**Platform:** Arduino Uno  
-**Target:** Red-Eared Slider Turtle  
+**Project:** Automatic Turtle Feeder
+**Platform:** Arduino Uno
+**Target:** Red-Eared Slider Turtle
 **Version:** 1.0
